@@ -1,0 +1,27 @@
+{
+  "name": "electron-js-desktop-app",
+  "version": "1.0.0",
+  "description": "Electron app for windows . App contains form submission .",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afreed-bin-haque/electron-js-desktop-app.git"
+  },
+  "keywords": [
+    "electron",
+    "reactjs"
+  ],
+  "author": "Afreed Bin Haque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afreed-bin-haque/electron-js-desktop-app/issues"
+  },
+  "homepage": "https://github.com/afreed-bin-haque/electron-js-desktop-app#readme",
+  "dependencies": {
+    "electron": "^27.0.3"
+  }
+}
