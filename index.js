@@ -5,12 +5,12 @@ const path = require('path');
 function createMainWindow() {
   const mainWindow = new BrowserWindow({
     title: 'Welcome to electron desk app',
-    width: 800,
-    height: 600,
+    width: 1280,
+    height: 720,
   });
 
   const startURL = url.format({
-    pathname: path.join(__dirname, 'index.html'),
+    pathname: path.join(__dirname, 'public/index.html'),
     protocol: 'file',
   });
 
