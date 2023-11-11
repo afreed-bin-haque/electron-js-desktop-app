@@ -7,6 +7,30 @@
   <title>Electron welcome</title>
 </head>
 <body>
-  <p>Welcome to Todo app</p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>Welcome to <span id="appName"></span> app</p>
+      </div>
+    </div>
+    <div class="row pt-2">
+      <div class="col-6 justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Say Cheez</h5>
+            <video id="camera" autoplay></video>
+            <div class="row">
+              <div class="col flex">
+                <button class="btn btn-success btn-sm" id="startButton">Start</button>
+                <button class="btn btn-dark btn-sm" id="stopButton">Stop</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/op/opjs.js"></script>
 </body>
 </html>
